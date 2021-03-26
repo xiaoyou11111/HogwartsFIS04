@@ -1,0 +1,19 @@
+cat:
+ - name:
+     "小喵"
+ - color:
+     "黑色"
+ - age:
+     2
+ - gender:
+     "female"
+ - hair:
+     "短毛"
+
+dog:
+  -
+    name: "大黄"
+    color: "黄色"
+    age: 3
+    geder: "male"
+    hair: "长毛"
