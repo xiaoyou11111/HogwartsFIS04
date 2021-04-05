@@ -1,0 +1,105 @@
+{
+  "uid" : "234b22fc18ec36db",
+  "name" : "test_div[div1]",
+  "fullName" : "test_cal1.TestCal1#test_div",
+  "historyId" : "7f300168c50f377395990a9b02b2b3ae",
+  "time" : {
+    "start" : 1617291414313,
+    "stop" : 1617291414314,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_data3",
+    "time" : {
+      "start" : 1617291414310,
+      "stop" : 1617291414310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "func",
+    "time" : {
+      "start" : 1617291414179,
+      "stop" : 1617291414179,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "func::0",
+    "time" : {
+      "start" : 1617291414358,
+      "stop" : 1617291414358,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "相处功能"
+  }, {
+    "name" : "feature",
+    "value" : "计算开始"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal1"
+  }, {
+    "name" : "host",
+    "value" : "wake-PC"
+  }, {
+    "name" : "thread",
+    "value" : "21264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cal1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_data3",
+    "value" : "[0.5, 2, 0.25]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "234b22fc18ec36db.json",
+  "parameterValues" : [ "[0.5, 2, 0.25]" ]
+}

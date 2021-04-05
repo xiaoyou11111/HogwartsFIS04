@@ -1,0 +1,107 @@
+{
+  "uid" : "4e9e7934039b40e2",
+  "name" : "test_add_int[int3]",
+  "fullName" : "test_cal1.TestCal1#test_add_int",
+  "historyId" : "1ce68dffb376361cd758c3a160592851",
+  "time" : {
+    "start" : 1617291884756,
+    "stop" : 1617291884757,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2\n +  where 1 = <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x0000000003803978>>(1, 0)\n +    where <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x0000000003803978>> = <pycode.calculator2.calculator.calculator object at 0x0000000003803978>.add",
+  "statusTrace" : "self = <pycode.calculator2.test_cal1.TestCal1 object at 0x0000000003803CC0>, get_data1 = [1, 0, 2], func = <pycode.calculator2.calculator.calculator object at 0x0000000003803978>\n\n    @allure.story(\"整数相加功能\")\n    def test_add_int(self, get_data1, func):\n>       assert func.add(get_data1[0], get_data1[1]) == get_data1[2]\nE       assert 1 == 2\nE        +  where 1 = <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x0000000003803978>>(1, 0)\nE        +    where <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x0000000003803978>> = <pycode.calculator2.calculator.calculator object at 0x0000000003803978>.add\n\ntest_cal1.py:9: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "func",
+    "time" : {
+      "start" : 1617291884719,
+      "stop" : 1617291884719,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_data1",
+    "time" : {
+      "start" : 1617291884755,
+      "stop" : 1617291884755,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "func::0",
+    "time" : {
+      "start" : 1617291884860,
+      "stop" : 1617291884860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算开始"
+  }, {
+    "name" : "story",
+    "value" : "整数相加功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal1"
+  }, {
+    "name" : "host",
+    "value" : "wake-PC"
+  }, {
+    "name" : "thread",
+    "value" : "18456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cal1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_data1",
+    "value" : "[1, 0, 2]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e9e7934039b40e2.json",
+  "parameterValues" : [ "[1, 0, 2]" ]
+}

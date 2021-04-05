@@ -1,0 +1,41 @@
+
+add_int:
+  data:
+     - [1,2,3]
+     - [3,5,8]
+     - [1,0,2]
+
+  ids:
+    - "int1"
+    - "int2"
+    - "int3"
+
+
+add_float:
+  data:
+    - [0.1,0.2,0.3]
+    - [0.1,0.1,0.2]
+    - [0.2,0.9,1.0]
+  ids:
+    - float1
+    - float2
+    - float3
+
+div:
+ data:
+   - [0.5,2,0.25]
+   - [1,2,0.5]
+   - [1,0.5,2]
+
+ ids:
+   - div1
+   - div2
+   - div3
+
+div_zero:
+ data:
+   - [1,0,1]
+ ids:
+   - Zero
+
+

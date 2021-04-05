@@ -1,0 +1,123 @@
+{
+  "uid" : "b5b1a9a855a8a5a",
+  "name" : "test_add_int[int2]",
+  "fullName" : "test_cal1.TestCal1#test_add_int",
+  "historyId" : "20cf1e36bd999b5baff6c5735086df39",
+  "time" : {
+    "start" : 1617629577161,
+    "stop" : 1617629577161,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "func",
+    "time" : {
+      "start" : 1617629577149,
+      "stop" : 1617629577149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_data1",
+    "time" : {
+      "start" : 1617629577159,
+      "stop" : 1617629577159,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "func::0",
+    "time" : {
+      "start" : 1617629577313,
+      "stop" : 1617629577313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算功能"
+  }, {
+    "name" : "story",
+    "value" : "整数相加功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal1"
+  }, {
+    "name" : "host",
+    "value" : "wake-PC"
+  }, {
+    "name" : "thread",
+    "value" : "17768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cal1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_data1",
+    "value" : "[3, 5, 8]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6fe3552744e00634",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617291884751,
+        "stop" : 1617291884751,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dcf6007e9d82c068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617291414187,
+        "stop" : 1617291414188,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5b1a9a855a8a5a.json",
+  "parameterValues" : [ "[3, 5, 8]" ]
+}

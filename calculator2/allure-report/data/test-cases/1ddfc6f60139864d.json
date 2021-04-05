@@ -1,0 +1,105 @@
+{
+  "uid" : "1ddfc6f60139864d",
+  "name" : "test_add_float[float2]",
+  "fullName" : "test_cal1.TestCal1#test_add_float",
+  "historyId" : "7701e244ace12bb417b14ea68d40673b",
+  "time" : {
+    "start" : 1617291884821,
+    "stop" : 1617291884821,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "func",
+    "time" : {
+      "start" : 1617291884719,
+      "stop" : 1617291884719,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_data2",
+    "time" : {
+      "start" : 1617291884820,
+      "stop" : 1617291884821,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "func::0",
+    "time" : {
+      "start" : 1617291884860,
+      "stop" : 1617291884860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算开始"
+  }, {
+    "name" : "story",
+    "value" : "浮点数相加功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal1"
+  }, {
+    "name" : "host",
+    "value" : "wake-PC"
+  }, {
+    "name" : "thread",
+    "value" : "18456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cal1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_data2",
+    "value" : "[0.1, 0.1, 0.2]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ddfc6f60139864d.json",
+  "parameterValues" : [ "[0.1, 0.1, 0.2]" ]
+}

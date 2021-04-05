@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 2\n +  where 1 = <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x00000000036BAFD0>>(1, 0)\n +    where <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x00000000036BAFD0>> = <pycode.calculator2.calculator.calculator object at 0x00000000036BAFD0>.add",
+      "children" : [ {
+        "name" : "test_add_int[int3]",
+        "uid" : "9a1e58dd15ec5546",
+        "parentUid" : "b30009bdb4f1c5b80c5e415e22d3ccd7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617629577187,
+          "stop" : 1617629577188,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 0, 2]" ]
+      } ],
+      "uid" : "b30009bdb4f1c5b80c5e415e22d3ccd7"
+    }, {
+      "name" : "AssertionError: assert 1.1 == 1.0\n +  where 1.1 = round(1.1, 1)\n +    where 1.1 = <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x00000000036BAFD0>>(0.2, 0.9)\n +      where <bound method calculator.add of <pycode.calculator2.calculator.calculator object at 0x00000000036BAFD0>> = <pycode.calculator2.calculator.calculator object at 0x00000000036BAFD0>.add",
+      "children" : [ {
+        "name" : "test_add_float[float3]",
+        "uid" : "6eae8084bd02a489",
+        "parentUid" : "016ff0ec6b9ea56728bf29ab506ce328",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617629577265,
+          "stop" : 1617629577266,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.2, 0.9, 1.0]" ]
+      } ],
+      "uid" : "016ff0ec6b9ea56728bf29ab506ce328"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
