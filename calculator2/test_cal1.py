@@ -2,6 +2,7 @@ import allure
 import pytest
 
 
+
 @allure.feature("计算功能")
 class TestCal1:
     @allure.story("整数相加功能")

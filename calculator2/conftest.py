@@ -40,6 +40,7 @@ def get_data3(request):
 def get_data4(request):
     return request.param
 
+#
 # @pytest.fixture(params=getDatas()['data'],ids=getDatas()['ids'])
 # def get_data2(request):
 #     return request.param
